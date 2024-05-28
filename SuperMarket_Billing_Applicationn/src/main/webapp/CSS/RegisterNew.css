@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+/* Apply styles to the registration container */
+.register {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #8ecce5;
+    border-color: black;
+    border-width: 5px;
+    margin: 5px;
+}
+
+/* Apply styles to headings */
+h2 {
+    text-align: center;
+}
+
+/* Apply styles to the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form p{
+	color:red;
+	text-align:center;
+}
+
+/* Apply styles to labels */
+label {
+    margin-bottom: 5px;
+}
+
+/* Apply styles to input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],	
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff;
+    cursor: pointer;
+}
+
+#otpId{
+    padding: 20px;
+    display: none;
+    justify-self: center;
+    align-self: center;
+    border: 4px solid black;
+    z-index: 1;
+}
+
+#otpId button{
+	display: grid;
+    justify-self: center;
+    width: 100px;
+    height: 40px;
+}
+
+
+/* Apply hover styles to the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a button{
+    background-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 1px solid black; /* Set your desired border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+a button:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+}
+

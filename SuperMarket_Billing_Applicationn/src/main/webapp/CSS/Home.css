@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+body, header, nav a {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 0; /* Add padding */
+}
+
+/* Center the navigation */
+.navigation {
+    width: 100%; /* Set width */
+    right: auto; /* Center horizontally */
+}
+
+/* Style the navigation links */
+nav a {
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Add space between links */
+}
+
+
+/* Style the navigation links on hover */
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* style the side bar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #051d36;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover{
+    color: aliceblue;
+  }
+  .sidebar .closebtn{
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidebar h1{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 30px;
+  }
+  
+ 
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav a {font-size: 18px;}
+    .navbartop a{
+        float: none;
+        display: block;
+    }
+  }
+
